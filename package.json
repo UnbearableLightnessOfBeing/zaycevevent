@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27913696.5d122a3",
+    "@nuxtjs/tailwindcss": "^6.3.0",
+    "@vueuse/core": "^9.12.0",
+    "@vueuse/nuxt": "^9.12.0",
+    "nuxt": "^3.1.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "tailwind-scrollbar": "^2.1.0"
+  },
+  "dependencies": {
+    "epic-spinners": "^2.0.0",
+    "gsap": "^3.11.4",
+    "nuxt-icons": "^3.1.0",
+    "swiper": "^8.4.7"
+  }
+}
