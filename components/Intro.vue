@@ -25,8 +25,8 @@ import { largeScreen } from '@/composables/useLargeScreen';
     </div>
     <div v-else id="main" class="large-screen relative mb-[182px] pt-[81px] mx-5 max-w-[1440px] desktop:mx-auto">
         <div class="uppercase">
-            <h1 class="header-1">Сергей</h1>
-            <h1 class="header-1 ml-[283px] mb-[42px]">Зайцев</h1>
+            <h1 class="header-1 ml-[20px]">Сергей</h1>
+            <h1 class="header-1 ml-[210px] mb-[42px]">Зайцев</h1>
             <p class="title-1 ml-[283px] max-w-[500px]">
                 ВЕДУЩИЙ, СЦЕНАРИСТ И КРЕАТИВНЫЙ
                 ПРОДЮСЕР ВАШЕГО МЕРОПРИЯТИЯ
@@ -38,10 +38,10 @@ import { largeScreen } from '@/composables/useLargeScreen';
         <h3 class="header-3 text-right lowercase mx-[9px]"><span class="text-primary">@</span>zaycevevent</h3>
         <div class="image absolute top-0 right-0 w-[59%] h-[725px] z-[-1] overflow-hidden">
             <nuxt-img 
-                src="/mobile-main.jpg" 
+                src="/main.png" 
                 alt="zaycev" 
                 format="webp" 
-                class="h-full w-full object-cover scale-[100%] object-[0_92%]"
+                class="w-full h-full object-cover scale-[99%] object-[100%_20%]"
             /> 
         </div>
         <div class="blur-[150px] absolute w-[627px] h-[627px] left-[315px] top-[-64px] bg-[#BB26484D] z-[-2]"></div>

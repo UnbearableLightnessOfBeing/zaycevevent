@@ -19,14 +19,14 @@ import LazyImage from '@/components/LazyImage.vue';
         <p class="opacity-60 title-1">Алан Рикман</p>
     </div>
     <div v-else class="large-screen relative flex justify-between h-[420px] overflow-hidden w-fit mx-auto">
-        <div class="image w-[535px] min-h-[675px] absolute top-0 left-0 z-[-1]">
+        <div class="image w-[535px] min-h-[675px] absolute top-0 left-0 z-[-1] overflow-hidden">
             <LazyImage 
-                :src="'/about.jpg'" 
+                :src="'/about2.png'" 
                 format="webp" 
                 alt="zaycev quote" 
-                classes="w-full h-full object-top object-cover"
+                classes="object-none object-right scale-[110%]"
                 :width="535"
-                :height="675"
+                :height="420"
             />
             <div class="w-full h-full absolute top-0 left-0 bg-gradient-to-r from-transparent to-black opacity-60"></div>
         </div>

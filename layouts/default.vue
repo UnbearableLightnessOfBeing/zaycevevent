@@ -72,7 +72,7 @@ let menuOpen = ref(false);
                     <a class="hover:text-primary cursor-pointer">+7 919 192-24-01</a>
                 </div>
                 <div class="right space-y-[20px]">
-                    <p class="body-3 opacity-90 text-center">Coded by <a href="https://github.com/UnbearableLightnessOfBeing" target="_blank" class="uppercase text-primary">Rbt</a></p>
+                    <p class="body-3 opacity-90 text-center">Made with love by <a href="https://www.sar-media.ru" target="_blank" class="uppercase text-primary">sarmedia</a></p>
                     <div class="media-links flex gap-[26px]">
                         <a href="https://t.me/zaycevevent"
                             target="_blank"
