@@ -8,10 +8,10 @@ import LazyImage from '@/components/LazyImage.vue';
     <div v-if="!largeScreen" id="contacts" class="contact border-t-[1px] border-primary">
         <div class="image relative flex h-[455px] overflow-hidden">
             <LazyImage 
-                src="/contact.png"
+                src="/contact-2.png"
                 alt="zaycev laughing and pointing at you"
                 format="webp"
-                classes="absolute z-[-1] top-0 left-0 w-full sm:h-full sm:object-cover sm:object-[0_20%]"
+                classes="absolute z-[-1] top-0 left-0 w-full scale-[110%] sm:h-full sm:object-cover sm:object-[0_20%]"
             />
             <div class="blur-[25px] absolute top-[305px] left-[-266px] h-[345px] w-[250%] 
                 bg-background z-[-1]"></div>

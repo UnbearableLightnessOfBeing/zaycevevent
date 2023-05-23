@@ -7,10 +7,10 @@ import { largeScreen } from '@/composables/useLargeScreen';
     <div v-if="!largeScreen" id="main" class="mobile-screen">
         <div class="img-wrapper absolute top-0 h-[780px] w-full left-0 z-[-1] overflow-hidden">
             <nuxt-img 
-                src="/mobile-main.jpg" 
+                src="/mobile-main-2.png" 
                 alt="zaycev" 
-                format="webp" 
-                class="object-none h-full w-full object-bottom sm:object-cover md:object-[0_68%]"
+                format="webp"
+                class="object-none h-full w-full object-top sm:object-cover md:object-[0_68%]"
             />
             <div class="absolute top-[60%] left-[-50%] w-[200%] h-[701px] bg-background blur-[100px]"></div>
         </div>
